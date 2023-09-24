@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import Main from '../comp/main';
+
 const Javascript = () => {
     return (
       <>
         <Header/>
-        <main>
-        JavaScript page
-        </main>
+        <Main pageName='JAVASCRIPT'/>
         <Footer/>
       </>
     );
