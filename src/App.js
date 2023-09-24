@@ -6,14 +6,14 @@ import Javascript from "./pages/javascript";
 
 function App() {
   return (
-<>
+<div className="App">
   <Routes>
     <Route path="/" element={<Home/>}></Route>
     <Route path="/html" element={<Html/>}></Route>
     <Route path="/css" element={<Css/>}></Route>
     <Route path="/javascript" element={<Javascript/>}></Route>
   </Routes>
-</>
+</div>
   );
 }
 export default App;

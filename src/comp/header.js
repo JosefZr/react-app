@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink,Link } from "react-router-dom";
 const Header = () => {
     return (
         <div>
@@ -7,9 +7,9 @@ const Header = () => {
                 <h1>yoyo-dev</h1>
                 <ul className="flex">
                     <li className="main-list">
-                        <a className="main-link" href="/html">
+                        <NavLink className="main-link" to="/html">
                             HTML
-                        </a>
+                        </NavLink>
                         <ul className="sub-ul">
                             <li>
                                 <a href="">Full Course</a>
@@ -23,9 +23,9 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className="main-list">
-                        <a className="main-link" href="/css">
+                        <NavLink className="main-link" to="/css">
                             CSS
-                        </a>
+                        </NavLink>
                         <ul className="sub-ul">
                             <li>
                                 <a href="">Full Course</a>
@@ -50,9 +50,9 @@ const Header = () => {
                         </ul>
                     </li>
                     <li className="main-list">
-                        <a className="main-link" href="/javascript">
+                        <NavLink className="main-link" to="/javascript">
                             JavaScript
-                        </a>
+                        </NavLink>
                         <ul className="sub-ul sub-of-js">
                             <li>
                                 <a href="">coming soon🔥</a>
